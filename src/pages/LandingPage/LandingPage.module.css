@@ -1,0 +1,29 @@
+body{
+  
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+}
+
+.photo{
+  margin-top: 20px;
+  width: 260px;
+  height: 380px;
+  background-image: url('https://i0.wp.com/www.society19.com/uk/wp-content/uploads/sites/5/2018/07/best-burger-joints-in-Manchester.jpg?w=1000&ssl=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
