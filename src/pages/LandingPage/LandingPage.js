@@ -7,15 +7,15 @@ class LandingPage extends Component{
 
   render(){
     return (
-      <div>
+      <div className = {style.blueish}>
         <header>
           <h1>SLIDER</h1>
         </header>
-        <div className = {style.flex}>
-					<div className = {style.photo}>
-
+					<div className = {style.flex}>
+						<div className = {style.photo}>
+				
+						</div>
 					</div>
-        </div>
       </div>
     );
   }
