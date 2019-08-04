@@ -8,6 +8,11 @@ header{
   font-size: 25px;
 }
 
+body{
+  height: 100vh;
+}
+
+
 .blueish{
   background-color: aquamarine;
 }
@@ -21,6 +26,10 @@ header{
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
+}
+
+.full{
+  height: 100vh;
 }
 
 .flex{
