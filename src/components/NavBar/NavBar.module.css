@@ -7,3 +7,9 @@ nav{
     color: white;
     font-size: 25px;
 }
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}

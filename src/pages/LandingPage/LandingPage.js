@@ -7,7 +7,6 @@ class LandingPage extends Component{
 
   render(){
 
-    let classes = `${style.blueish} ${style.full}`
     let otherClass = `${style.flex} ${style.full}`
     return (
       <div>
