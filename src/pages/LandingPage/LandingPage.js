@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Controls from '../../components/Controls/Controls'
+import NavBar from '../../components/NavBar/NavBar'
 import style from './LandingPage.module.css'
 
 class LandingPage extends Component{
@@ -11,9 +12,7 @@ class LandingPage extends Component{
     return (
       <div>
         <div className = {style.blueish}>
-          <header>
-            <h1>SLIDER</h1>
-          </header>
+          <NavBar />
           <div className = {otherClass}>
             <div className = {style.photo}>
             </div>

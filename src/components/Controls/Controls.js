@@ -3,8 +3,6 @@ import style from './Controls.module.css';
 
 class Controls extends Component{
 
-
-
   render(){
 		let classes = `${style.container} ${style.flex}`
 		let flexWithIcon = `${style.icon} ${style.iconFlex}`
